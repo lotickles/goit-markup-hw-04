@@ -1,0 +1,217 @@
+/* latin */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-display: swap;
+  src: local("Roboto Bold") url(https://fonts.googleapis.com);
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(https://fonts.googleapis.com);
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #ffffff;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --green: #31d0aa;
+  --grey: #2e2f42;
+}
+body {
+  color: var(--slate);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white);
+}
+/*default link style*/
+.link {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.link.logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus,
+.address .link:hover,
+.address .link:focus {
+  color: var(--ocean);
+}
+.logo > .studio {
+  color: var(--navyblue);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+/*default list style*/
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+/*first nav link*/
+.nav-link {
+  color: var(--navyblue);
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+/*address na sa wakas*/
+.address .link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address .link {
+  color: var(--slate);
+}
+
+/*sections finally!*/
+.section-one {
+  background-color: var(--navyblue);
+}
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.button {
+  background-color: var(--iris);
+  /* Button Text */
+  color: var(--white);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+}
+/*SECTION TWO*/
+/* Header 3 */
+.feature-title {
+  color: var(--navyblue);
+
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+/*paragraph*/
+.feature-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*section three and for for headings*/
+.section-header {
+  color: var(--navyblue);
+  text-align: center;
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-four {
+  background-color: var(--cloud);
+}
+/*section title and p bg color*/
+.section-four .list-member,
+.feature-text {
+  background-color: var(--white);
+}
+/*footer*/
+.footer {
+  background-color: var(--navyblue);
+}
+.link.footer {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.link.footer .studio {
+  color: var(--cloud);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: var(--cloud);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*============PORTFOLIO PAGE============*/
+
+/*buttons menu*/
+.button-style {
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+.portfolio-section .button-style:hover,
+.portfolio-section .button-style:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/*==========IMAGES=========*/
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.design {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
