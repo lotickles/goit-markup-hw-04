@@ -9,6 +9,7 @@
   font-family: "Raleway";
   src: url(https://fonts.googleapis.com);
 }
+
 a {
   text-decoration: none;
 }
@@ -28,10 +29,19 @@ address {
   --green: #31d0aa;
   --grey: #2e2f42;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--slate);
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
+}
+img {
+  display: block;
 }
 /*default link style*/
 .link {
