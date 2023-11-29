@@ -188,7 +188,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*============PORTFOLIO PAGE============*/
+/*============PORTFOLIO PAGE HW2============*/
 
 /*buttons menu*/
 .button-style {
@@ -214,4 +214,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+/*==================HOMEWORK THREE========*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
