@@ -223,7 +223,7 @@ img {
 .container {
   display: flex;
 }
-.container .default-container {
+.default-container {
   width: 1158px;
   margin: 0 auto;
   padding: 0;
