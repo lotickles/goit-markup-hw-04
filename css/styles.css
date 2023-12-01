@@ -99,7 +99,7 @@ img {
 }
 .hero-title {
   color: var(--white);
-  text-align: center;
+  /* text-align: center; */
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
@@ -256,6 +256,7 @@ img {
 
 .hero-title {
   max-width: 496px;
+  text-align: center; /*i added it*/
 }
 .section-one .button {
   display: block;
@@ -272,8 +273,9 @@ img {
 }
 .visually-hidden {
   display: none;
+  margin-bottom: 8px;
 }
-.section-two .container {
+.container {
   width: 1128px;
   margin-right: 156px;
   margin-left: 156px;
@@ -286,6 +288,34 @@ img {
   margin-right: 0;
 }
 .feature-list {
-  justify-content: center;
-  /* width: calc(calc((100% - 72px) / 4)); */
+  /* justify-content: center; */
+  width: (calc((100% - 72px) / 4));
+}
+/*======SECTION 3========*/
+.section-three {
+  padding-bottom: 120px;
+}
+.section-header {
+  margin-bottom: 76px;
+}
+.section-three .list {
+  display: flex;
+  gap: 24px;
+}
+.list-images {
+  width: calc((100% - 48px) / 3);
+}
+/*========SECTION4==========*/
+.section-four {
+  padding: 120px 0;
+}
+.section-header {
+  margin-bottom: 76px;
+}
+.section-four .list {
+  display: flex;
+  gap: 24px;
+}
+.list-member {
+  width: calc((100% - 72px) / 4);
 }
