@@ -226,11 +226,11 @@ img {
 .container .default-container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
 }
 .header .list {
   display: inline-flex;
-  padding: 0 auto;
+  padding: 0;
 }
 .list {
   display: flex;
