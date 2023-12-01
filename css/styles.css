@@ -224,8 +224,15 @@ img {
   color: var(--slate);
 }
 /*==================HOMEWORK THREE========*/
+.list {
+  display: flex;
+  align-items: center;
+}
 .header {
   border-bottom: 1px solid var(--cornflower);
+}
+.main-center {
+  margin: 0 156px;
 }
 .container {
   display: flex;
@@ -234,28 +241,22 @@ img {
   padding: 0 15px;
   justify-content: space-between;
 }
-.main-center {
-  margin: 0 156px;
+.header .list {
+  display: flex;
+  padding: 0;
+  gap: 40px;
+}
+.header .link {
+  padding: 24px 0;
 }
 
-.header .list {
-  display: inline-flex;
-  padding: 0;
-}
-.container > * {
-  margin-top: 24px;
-  margin-bottom: 24px;
+.header .menu {
+  display: flex;
+  gap: 40px;
 }
 
 /*NAV TAG class list*/
-.list {
-  display: flex;
-  align-items: center;
-}
 
-.nav-link {
-  margin-right: 40px;
-}
 .nav-link :last-child {
   margin-right: 0;
 }
