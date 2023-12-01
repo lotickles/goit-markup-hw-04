@@ -250,12 +250,15 @@ img {
   gap: 40px;
 }
 /*========SECTION1=========*/
-.container-section {
+.section-one {
+  padding: 188px 0;
+}
+/* .container {
   padding-top: 188px;
   padding-right: 472px;
   padding-bottom: 292px;
   padding-left: 472px;
-}
+} */
 .hero-title {
   max-width: 496px;
 }
