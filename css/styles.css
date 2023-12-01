@@ -270,16 +270,22 @@ img {
 .section-two {
   padding: 120px 0;
 }
-.hide {
+.visually-hidden {
   display: none;
 }
-.section-two.list {
+.section-two .container {
+  width: 1128px;
+  margin-right: 156px;
+  margin-left: 156px;
+}
+.section-two .list {
   display: flex;
-  margin-right: 24px;
+  gap: 24px;
 }
 .section-two .list:last-child {
   margin-right: 0;
 }
 .feature-list {
-  width: calc(calc((100% - 72px) / 4));
+  justify-content: center;
+  /* width: calc(calc((100% - 72px) / 4)); */
 }
