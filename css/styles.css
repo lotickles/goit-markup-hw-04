@@ -270,3 +270,16 @@ img {
 .section-two {
   padding: 120px 0;
 }
+.hide {
+  display: none;
+}
+.section-two.list {
+  display: flex;
+  margin-right: 24px;
+}
+.section-two .list:last-child {
+  margin-right: 0;
+}
+.feature-list {
+  width: calc(calc((100% - 72px) / 4));
+}
