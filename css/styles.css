@@ -11,22 +11,20 @@
   --green: #31d0aa;
   --grey: #2e2f42;
 }
-/*=======================RESET=====*/
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-.li {
+/*===================RESET CSS=====*/
+*,
+:before,
+:after {
   margin: 0;
+  padding: 0;
 }
 
 body {
   color: var(--slate);
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
+  width: 1440px;
+  margin: 0 auto;
 }
 img {
   display: block;
@@ -45,6 +43,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 .link:hover,
 .link:focus,
@@ -94,6 +93,9 @@ img {
 /*sections finally!*/
 .section-one {
   background-color: var(--navyblue);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
 }
 .hero-title {
   color: var(--white);
@@ -103,7 +105,12 @@ img {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-bottom: 292px;
+  padding-left: 472px;
 }
+
 .button {
   background-color: var(--iris);
   /* Button Text */
@@ -225,24 +232,38 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  justify-content: space-between;
+}
+.main-center {
+  margin: 0 156px;
 }
 
 .header .list {
   display: inline-flex;
   padding: 0;
 }
-/*NAV TAG class*/
+.container > * {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/*NAV TAG class list*/
 .list {
   display: flex;
   align-items: center;
 }
-.logo .studio {
-  margin-right: 76px;
-}
-.menu {
-  display: flex;
+
+.nav-link {
   margin-right: 40px;
 }
-.menu:last-child {
+.nav-link :last-child {
   margin-right: 0;
 }
+
+.hide {
+  display: none;
+}
+/* 
+.hero-button {
+  display: inline-flex;
+} */
