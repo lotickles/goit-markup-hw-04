@@ -231,9 +231,7 @@ img {
 .header {
   border-bottom: 1px solid var(--cornflower);
 }
-.main-center {
-  margin: 0 auto;
-}
+
 .container {
   display: flex;
   width: 1158px;
