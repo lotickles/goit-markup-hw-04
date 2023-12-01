@@ -222,16 +222,16 @@ img {
 }
 .container {
   display: flex;
-}
-.default-container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
 }
+
 .header .list {
   display: inline-flex;
   padding: 0;
 }
+/*NAV TAG class*/
 .list {
   display: flex;
   align-items: center;
