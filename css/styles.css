@@ -1,22 +1,4 @@
-/* latin */
-@font-face {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-display: swap;
-  src: local("Roboto Bold") url(https://fonts.googleapis.com);
-}
-@font-face {
-  font-family: "Raleway";
-  src: url(https://fonts.googleapis.com);
-}
-
-a {
-  text-decoration: none;
-}
-address {
-  font-style: normal;
-}
-
+/*=====================Variables============*/
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -29,6 +11,7 @@ address {
   --green: #31d0aa;
   --grey: #2e2f42;
 }
+/*=======================RESET=====*/
 
 .h1,
 .h2,
@@ -40,11 +23,6 @@ address {
   margin: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 body {
   color: var(--slate);
   font-family: "Roboto", sans-serif;
@@ -100,7 +78,10 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-/*address na sa wakas*/
+/*==========================ADDRESS ======*/
+.address {
+  font-style: normal;
+}
 .address .link {
   line-height: 1.5;
   letter-spacing: 0.02em;
