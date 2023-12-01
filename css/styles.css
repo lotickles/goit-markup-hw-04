@@ -29,12 +29,22 @@ address {
   --green: #31d0aa;
   --grey: #2e2f42;
 }
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.li {
+  margin: 0;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
 body {
   color: var(--slate);
   font-family: "Roboto", sans-serif;
@@ -226,8 +236,32 @@ img {
   color: var(--slate);
 }
 /*==================HOMEWORK THREE========*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+.container {
+  display: flex;
+}
+.container .default-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.header .list {
+  display: inline-flex;
+  padding: 0 auto;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.logo .studio {
+  margin-right: 76px;
+}
+.menu {
+  display: flex;
+  margin-right: 40px;
+}
+.menu:last-child {
+  margin-right: 0;
 }
