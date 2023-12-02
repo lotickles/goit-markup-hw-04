@@ -12,9 +12,7 @@
   --grey: #2e2f42;
 }
 /*===================RESET CSS=====*/
-*,
-:before,
-:after {
+* {
   margin: 0;
   padding: 0;
 }
@@ -34,7 +32,6 @@ img {
 .link {
   text-decoration: none;
   color: #2e2f42;
-  /* align-items: center; */
 }
 .link.logo {
   color: var(--iris);
@@ -87,6 +84,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  align-items: center;
 }
 
 /*sections !* ====================HERO SECTION attributes*=======*/
@@ -153,6 +151,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .section-four {
   background-color: var(--cloud);
@@ -244,11 +243,11 @@ img {
   padding: 24px 0;
 }
 
-.header .menu {
+.header .nav {
   display: flex;
   gap: 40px;
 }
-.menu {
+.nav {
   align-items: center;
 }
 /*========SECTION1=========*/
@@ -266,9 +265,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var(--iris);
   border-radius: 4px;
-  cursor: pointer;
   margin: 0 auto;
 }
 
@@ -283,7 +280,14 @@ img {
   flex-wrap: wrap;
 }
 .visually-hidden {
-  display: none;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 .section-two .list {
   display: flex;
@@ -293,15 +297,18 @@ img {
   margin-right: 0;
 }
 .feature-list {
-  width: (calc((100% - 72px) / 4));
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  /* width: (calc((100% - 72px) / 4)); */
 }
+.feature-title {
+  margin-bottom: 8px;
+}
+
 /*======SECTION 3========*/
 .section-three {
   padding-bottom: 120px;
 }
-.container.section-header {
-  margin-bottom: 72px;
-}
+
 .section-three .list {
   display: flex;
   gap: 24px;
@@ -312,9 +319,6 @@ img {
 /*========SECTION4==========*/
 .section-four {
   padding: 120px 0;
-}
-.container.section-header {
-  margin-bottom: 72px;
 }
 .section-four .list {
   display: flex;
