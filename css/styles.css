@@ -195,8 +195,9 @@ img {
   background-color: var(--ocean);
 }
 .portfolio-section {
-  padding-top: 96px;
+  padding: 96px 0 120px 0;
 }
+
 .filter-button {
   display: flex;
   justify-content: center;
@@ -212,7 +213,19 @@ img {
 .button-style:focus {
   border: 1px solid transparent;
 }
-/*==========IMAGES=========PORTFOLIO PAGE=========*/
+/*==========IMAGES=====PORTFOLIO PAGE=========*/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+.project-cards {
+  margin-right: 24px;
+}
+.project-cards:nth-child(2 + 1) {
+  margin-right: 0;
+}
+
 .card-title {
   font-weight: 500;
   font-size: 20px;
