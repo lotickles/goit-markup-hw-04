@@ -182,7 +182,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*============PORTFOLIO PAGE HW2============*/
+/*=========PORTFOLIO PAGE HW2 and HW3============*/
 
 /*buttons menu*/
 .button-style {
@@ -194,7 +194,24 @@ img {
   color: var(--white);
   background-color: var(--ocean);
 }
-
+.portfolio-section {
+  padding-top: 96px;
+}
+.filter-button {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.button-style {
+  padding: 12px 24px 12px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.button-style:hover,
+.button-style:focus {
+  border: 1px solid transparent;
+}
 /*==========IMAGES=========PORTFOLIO PAGE=========*/
 .card-title {
   font-weight: 500;
