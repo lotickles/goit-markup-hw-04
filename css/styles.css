@@ -295,7 +295,7 @@ img {
 .section-three {
   padding-bottom: 120px;
 }
-.section-header {
+.container.section-header {
   margin-bottom: 76px;
 }
 .section-three .list {
@@ -309,7 +309,7 @@ img {
 .section-four {
   padding: 120px 0;
 }
-.section-header {
+.container.section-header {
   margin-bottom: 76px;
 }
 .section-four .list {
@@ -318,4 +318,5 @@ img {
 }
 .list-member {
   width: calc((100% - 72px) / 4);
+  border-radius: (0px 0px 4px 4px);
 }
