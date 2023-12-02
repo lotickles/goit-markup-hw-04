@@ -29,10 +29,12 @@ body {
 img {
   display: block;
 }
+/*===========================LOGO==============*/
 /*default link style*/
 .link {
   text-decoration: none;
   color: #2e2f42;
+  /* align-items: center; */
 }
 .link.logo {
   color: var(--iris);
@@ -69,7 +71,6 @@ img {
 /*first nav link*/
 .nav-link {
   color: var(--navyblue);
-  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -84,29 +85,30 @@ img {
 .address .link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.address .link {
   color: var(--slate);
 }
 
-/*sections finally!*/
+/*sections !* ====================HERO SECTION attributes*=======*/
 .section-one {
   background-color: var(--navyblue);
   width: 1440px;
   height: 600px;
+  text-align: center;
   flex-shrink: 0;
+  padding: 188px 0;
 }
 .hero-title {
   color: var(--white);
-  /* text-align: center; */
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  margin: 0 auto 48px;
+  max-width: 496px;
 }
 
+/*=====================BUTTON attributes========*/
 .button {
   background-color: var(--iris);
   /* Button Text */
@@ -123,7 +125,7 @@ img {
 .button:focus {
   background-color: var(--ocean);
 }
-/*SECTION TWO*/
+/*========================SECTION TWO===========*/
 /* Header 3 */
 .feature-title {
   color: var(--navyblue);
@@ -139,7 +141,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*section three and for for headings*/
+/*=================SECTION THREE attributes============*/
 .section-header {
   color: var(--navyblue);
   text-align: center;
@@ -184,8 +186,6 @@ img {
 }
 .footer-text {
   color: var(--cloud);
-
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -205,7 +205,7 @@ img {
   background-color: var(--ocean);
 }
 
-/*==========IMAGES=========*/
+/*==========IMAGES=========PORTFOLIO PAGE=========*/
 .card-title {
   font-weight: 500;
   font-size: 20px;
@@ -219,12 +219,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-/*==================HOMEWORK THREE========*/
+/*==================HOMEWORK THREE flex and styles========*/
 /*      HEADER     */
-.list {
-  display: flex;
-  align-items: center;
-}
+
 .header {
   border-bottom: 1px solid var(--cornflower);
 }
@@ -236,6 +233,7 @@ img {
   padding: 0 15px;
   justify-content: space-between;
 }
+
 .header .list {
   display: flex;
   padding: 0;
@@ -250,15 +248,16 @@ img {
   gap: 40px;
 }
 /*========SECTION1=========*/
-.section-one {
-  padding: 188px 0;
-}
 
 .hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   max-width: 496px;
-  text-align: center; /*i added it*/
+  margin: 0 auto 48px;
 }
-.section-one .button {
+
+.hero-title.button {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -271,14 +270,14 @@ img {
 .section-two {
   padding: 120px 0;
 }
-.visually-hidden {
-  display: none;
-  margin-bottom: 8px;
-}
 .container {
   width: 1128px;
   margin-right: 156px;
   margin-left: 156px;
+  flex-wrap: wrap;
+}
+.visually-hidden {
+  display: none;
 }
 .section-two .list {
   display: flex;
@@ -288,7 +287,6 @@ img {
   margin-right: 0;
 }
 .feature-list {
-  /* justify-content: center; */
   width: (calc((100% - 72px) / 4));
 }
 /*======SECTION 3========*/
@@ -296,7 +294,7 @@ img {
   padding-bottom: 120px;
 }
 .container.section-header {
-  margin-bottom: 76px;
+  margin-bottom: 72px;
 }
 .section-three .list {
   display: flex;
@@ -310,13 +308,13 @@ img {
   padding: 120px 0;
 }
 .container.section-header {
-  margin-bottom: 76px;
+  margin-bottom: 72px;
 }
 .section-four .list {
   display: flex;
   gap: 24px;
 }
 .list-member {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: (0px 0px 4px 4px);
 }
