@@ -248,6 +248,9 @@ img {
   display: flex;
   gap: 40px;
 }
+.menu {
+  align-items: center;
+}
 /*========SECTION1=========*/
 
 .hero-title {
