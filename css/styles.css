@@ -146,9 +146,9 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.icons {
+/* .icons {
   fill: currentColor;
-}
+} */
 
 .feature-title {
   color: var(--navyblue);
@@ -409,7 +409,19 @@ img {
   text-align: center;
   background-color: var(--white);
 }
-
+/* Header 2 */
+.customer {
+  display: flex;
+  color: var(--navyblue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
 /*=========FOOOTER=========*/
 .footer {
   background-color: var(--navyblue);
