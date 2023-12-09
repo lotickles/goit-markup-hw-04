@@ -389,6 +389,8 @@ img {
   background-color: var(--white);
   flex-basis: calc((100% - 3 * 24px) / 4);
   align-content: center;
+  box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .card-container {
   display: flex;
@@ -418,6 +420,7 @@ img {
 .section-five svg {
   width: 64px;
   height: 64px;
+  fill: currentColor;
 }
 .customers-list {
   display: flex;
@@ -430,8 +433,8 @@ img {
 }
 .customers_link {
   display: flex;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
   align-items: center;
