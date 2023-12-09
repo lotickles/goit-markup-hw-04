@@ -413,12 +413,15 @@ img {
   background-color: var(--white);
 }
 /*HW*/
-.social-media {
+.social-media-icons {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-
+.social-media-cont {
+  width: 40px;
+  height: 40px;
+}
 .social-media-links {
   display: flex;
   width: 100%;
@@ -427,8 +430,6 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
 }
 .social-media-links:hover,
 .social-media-links:focus {
