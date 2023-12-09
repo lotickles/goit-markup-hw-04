@@ -391,6 +391,7 @@ img {
   align-content: center;
   box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  padding-bottom: 32px;
 }
 .card-container {
   display: flex;
@@ -411,6 +412,28 @@ img {
   text-align: center;
   background-color: var(--white);
 }
+/*HW*/
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-media-links {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.social-media-links:hover,
+.social-media-links:focus {
+  background-color: var(--ocean);
+}
 
 /*==========CUTOMER SECTION5*=======*/
 .section-five {
@@ -429,7 +452,6 @@ img {
 .customers-logo {
   width: calc((100% - 120px) / 6);
   height: 88px;
-  border: 1px solid var(--light-slate);
 }
 .customers_link {
   display: flex;
@@ -444,8 +466,7 @@ img {
 
 .customers_link:hover,
 .customers_link:focus {
-  border: var(--ocean);
-  color: var(--ocean);
+  border-color: var(--ocean);
 }
 
 /*=========FOOOTER=========*/
