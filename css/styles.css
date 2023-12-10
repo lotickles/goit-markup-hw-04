@@ -391,7 +391,6 @@ img {
   align-content: center;
   box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  padding-bottom: 32px;
 }
 .card-container {
   display: flex;
@@ -413,8 +412,8 @@ img {
   background-color: var(--white);
 }
 /*HW*/
-.social-media-icons {
-  display: flex;
+.trailing-icons {
+  display: inline-flex;
   justify-content: center;
   gap: 24px;
 }
