@@ -190,10 +190,6 @@ img {
 /*=========PORTFOLIO PAGE HW2 and HW3============*/
 
 /*buttons menu*/
-.button-style {
-  color: var(--iris);
-  background-color: var(--cloud);
-}
 .portfolio-section .button-style:hover,
 .portfolio-section .button-style:focus {
   color: var(--white);
@@ -213,6 +209,8 @@ img {
   margin-bottom: 72px;
 }
 .button-style {
+  color: var(--iris);
+  background-color: var(--cloud);
   padding: 12px 24px 12px;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
