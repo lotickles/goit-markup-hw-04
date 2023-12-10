@@ -469,6 +469,7 @@ img {
 .customers_link:hover,
 .customers_link:focus {
   border-color: var(--ocean);
+  color: var(--ocean);
 }
 
 /*=========FOOOTER=========*/
