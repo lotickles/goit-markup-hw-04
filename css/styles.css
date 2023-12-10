@@ -434,7 +434,9 @@ img {
 .social-media-links:focus {
   background-color: var(--ocean);
 }
-
+.socmed_icon {
+  fill: var(--cloud);
+}
 /*==========CUTOMER SECTION5*=======*/
 .section-five {
   padding-top: 120px;
