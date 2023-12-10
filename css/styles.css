@@ -505,7 +505,7 @@ img {
   color: var(--white);
   margin-bottom: 16px;
 }
-.list.trailing-icons {
+.footer .trailing-icons {
   display: flex;
   gap: 16px;
 }
