@@ -465,6 +465,8 @@ img {
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+.footer-logo {
   margin-right: 120px;
 }
 .footer-text {
