@@ -187,23 +187,6 @@ img {
 
 /*section title and p bg color*/
 
-.logo-footer {
-  color: var(--cloud);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.footer-text {
-  color: var(--cloud);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 /*=========PORTFOLIO PAGE HW2 and HW3============*/
 
 /*buttons menu*/
@@ -475,12 +458,55 @@ img {
   background-color: var(--navyblue);
   padding: 100px 0;
 }
-
+.footer .container {
+  align-items: baseline;
+  justify-content: flex-start;
+}
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 120px;
 }
 .footer-text {
   max-width: 264px;
   color: var(--cloud);
+}
+.footer_studio {
+  color: var(--cloud);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* .footer-text {
+  color: var(--cloud);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em; }*/
+/* .footer-logo {
+  margin-right: 120px;
+} */
+.footer-socmed-cont {
+  display: flex;
+  margin-right: 120px;
+}
+.footer_socmed {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer_socmed .trailing-icons {
+  display: flex;
+  gap: 16px;
+}
+.footer_socmed .social-media-links {
+  width: 40px;
+  height: 40px;
 }
